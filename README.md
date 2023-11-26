@@ -20,9 +20,9 @@ The primary goal of this project is to create a user-friendly website that educa
 
 - **What to do?:** Practical tips and tricks for maintaining a healthy digital lifestyle.
 
-- **Resources:** A collection of recommended books, apps, and websites that support digital well-being.
+- ~~**Resources:** A collection of recommended books, apps, and websites that support digital well-being.~~
 
-- **About us:** A contact form for users to share feedback, ask questions, or suggest topics.
+- ~~**About us:** A contact form for users to share feedback, ask questions, or suggest topics.~~
 
 ## Technologies Used
 
