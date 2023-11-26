@@ -34,7 +34,7 @@ The primary goal of this project is to create a user-friendly website that educa
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/vuk77/digitalwellbeing.org.git
+   git clone https://github.com/vuk77/digitalwellbeing.org
    ```
 
 2. Navigate to the project directory:
