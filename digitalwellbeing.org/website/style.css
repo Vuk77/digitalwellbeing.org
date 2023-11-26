@@ -163,7 +163,6 @@ main{
 
 /* footer */
 footer {
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -178,12 +177,12 @@ footer {
 }
 
 .pFooterShow {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .pFooterHidden {
   display: none;
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
 }
 
