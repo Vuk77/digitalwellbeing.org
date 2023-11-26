@@ -164,7 +164,7 @@ main{
 /* footer */
 footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-around;
   align-items: center;
   padding: 20px;
   background-color: #36393e;
@@ -182,7 +182,7 @@ footer {
 
 .pFooterHidden {
   display: none;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -233,6 +233,10 @@ input[type="radio"] {
   /* footer */
   footer {
     flex-direction: column;
+  }
+
+  .footerContent {
+    padding: 0;
   }
 
   .pFooterShow {
