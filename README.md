@@ -1,4 +1,4 @@
-# Digital Well-being Website Project
+# Digital Well Being Website Project
 
 ## Overview
 
