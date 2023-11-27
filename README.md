@@ -51,7 +51,7 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 ## Feedback
 
-If you have any feedback, suggestions, or issues to report, please use the [Issues](https://github.com/vuk3377/digitalwellbeing.org/issues) section of this repository.
+If you have any feedback, suggestions, or issues to report, please use the [Issues](https://github.com/Vuk77/digitalwellbeing.org/issues) section of this repository.
 
 ## License
 
