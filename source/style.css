@@ -1,0 +1,249 @@
+/* Project: digitalwellbeing.org */
+/* File: style.css */
+/* Referenced from: index.html */
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+/* variables */
+:root {
+  --backgroundColor: #fffff;
+  --textColor: #000000;
+}
+
+/* general config for the website */
+html, body{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Prompt', sans-serif;
+  color: rgb(0, 0, 0);
+  background: var(--backgroundColor);
+}
+
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  min-height: 90px;
+  background-color: white;
+  border-bottom: 1px solid;
+  border-color: #d8d8d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  margin-right: 200px;
+  color: #36393e;
+  font-size: 25px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 60px;
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  color: #36393e;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #007aa7;
+}
+
+nav a::before {
+  height: 1px;
+  width: 0%;
+  display: block;
+  content: '';
+  background-color: #007aa7;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/* main block of the website */
+main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcomeScreen {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  max-width: 40rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.subTitle {
+  margin-top: 0;
+  margin-bottom: 1%;
+  font-size: 2rem;
+  color: var(--textColor);
+}
+
+.line {
+  border-top: 2px solid #007aa7;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.buttonContinue {
+  float: right;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 10px;
+  background: #4285F4;
+  transition: all 0.2s ease;
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  border-width: 2px;
+}
+
+.buttonContinue:active {
+  box-shadow: none;
+  transform: scale(0.9)
+}
+
+.buttonContinue:hover {
+  background: #366ec9;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #36393e;
+  color: #ffffff;
+}
+
+.footerContent {
+  padding: 10px;
+  color: #ffffff;
+}
+
+.pFooterShow {
+  font-size: 12px;
+}
+
+.pFooterHidden {
+  display: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* form */
+label {
+  display: block;
+  margin-top: 30px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.formButtons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+/* what to do? */
+.content a {
+  color: #007aa7;
+  text-decoration: none;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.content a:hover {
+  color: #000000;
+}
+
+@media (max-width: 1400px){
+  /* header */
+  header div {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    font-size: 25px;
+  }
+
+  /* footer */
+  footer {
+    flex-direction: column;
+  }
+
+  .footerContent {
+    padding: 0;
+  }
+
+  .pFooterShow {
+    display: none;
+  }
+
+  .pFooterHidden {
+    display: block;
+  }
+}
