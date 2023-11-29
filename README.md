@@ -17,7 +17,7 @@ The primary goal of this project is to create a user-friendly website that educa
 ## Features
 
 <div align="center">
-  <img alt="homepage" src="./Images/homepage.png" />
+  <img alt="homepage" src="./Images/index.png" />
 </div>
 
 - **Homepage:** A welcoming introduction to the concept of digital well-being.
