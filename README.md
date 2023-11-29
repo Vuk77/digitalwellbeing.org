@@ -22,9 +22,21 @@ The primary goal of this project is to create a user-friendly website that educa
 
 - **Homepage:** A welcoming introduction to the concept of digital well-being.
 
+<div align="center">
+  <img alt="homepage" src="./Images/whattodo.png" />
+</div>
+
 - **What to do?:** Practical tips and tricks for maintaining a healthy digital lifestyle.
 
+<div align="center">
+  <img alt="homepage" src="./Images/selfassesment.png" />
+</div>
+
 - **Self-Assesment:** A form to help you asses your digital well being.
+
+<div align="center">
+  <img alt="homepage" src="./Images/aboutus.png" />
+</div>
 
 - **About us:** A small page that tells you some information about us.
 
