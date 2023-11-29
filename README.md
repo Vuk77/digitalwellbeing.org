@@ -16,29 +16,29 @@ The primary goal of this project is to create a user-friendly website that educa
 
 ## Features
 
-<div align="center">
-  <img alt="homepage" src="./Images/index.png" />
-</div>
-
 - **Homepage:** A welcoming introduction to the concept of digital well-being.
 
 <div align="center">
-  <img alt="homepage" src="./Images/whattodo.png" />
+  <img alt="homepage" src="./Images/index.png" />
 </div>
 
 - **Self-Assesment:** A form to help you asses your digital well being.
 
 <div align="center">
-  <img alt="homepage" src="./Images/aboutus.png" />
+  <img alt="homepage" src="./Images/selfassesment.png" />
 </div>
 
 - **What to do?:** Practical tips and tricks for maintaining a healthy digital lifestyle.
 
 <div align="center">
-  <img alt="homepage" src="./Images/selfassesment.png" />
+  <img alt="homepage" src="./Images/whattodo.png" />
 </div>
 
 - **About us:** A small page that tells you some information about us.
+
+<div align="center">
+  <img alt="homepage" src="./Images/aboutus.png" />
+</div>
 
 ## Technologies Used
 
