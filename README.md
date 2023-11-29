@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Digital Well-being Website project! This project is a collaborative effort by two students who were given a task to make a website on Digital Well-being. In this README file, you'll find essential information about the project, its goals and features.
+Welcome to the Digital Well Being Website project! This project is a collaborative effort by two students who were given a task to make a website on Digital Well-being. In this README file, you'll find essential information about the project, its goals and features.
 
 ## Project Goals
 
@@ -20,9 +20,9 @@ The primary goal of this project is to create a user-friendly website that educa
 
 - **What to do?:** Practical tips and tricks for maintaining a healthy digital lifestyle.
 
-- ~~**Resources:** A collection of recommended books, apps, and websites that support digital well-being.~~
+- **Self-Assesment:** A form to help you asses your digital well being.
 
-- ~~**About us:** A contact form for users to share feedback, ask questions, or suggest topics.~~
+- **About us:** A small page that tells you some information about us.
 
 ## Technologies Used
 
